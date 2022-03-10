@@ -53,7 +53,7 @@ const switchTab = (id) => {
     displayReportedPosts();
   }
 };
-console.log(document.getElementById('liked'));
+
 const createPost = (post) => {
   const image = post.image;
   const div = document.createElement("article");
